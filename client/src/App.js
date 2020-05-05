@@ -1,44 +1,26 @@
-import React, {Component} from 'react';
-import {Route, Link} from 'react-router-dom';
-import {connect} from 'react-redux';
-import CommentBox from './components/CommentBox';
-import CommentList from './components/CommentList';
-import * as actions from './actions';
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-class App extends Component {
- renderButton() {
-  if (this.props.auth) {
-   return (
-    <button onClick={() => this.props.changeAuth(false)}>Sign Out</button>
-   );
-  } else {
-   return <button onClick={() => this.props.changeAuth(true)}>Sign In</button>;
-  }
- }
- renderHeader() {
+function App() {
   return (
-   <ul>
-    <li>
-     <Link to='/'>Home</Link>
-    </li>
-    <li>
-     <Link to='/post'>Post</Link>
-    </li>
-    <li>{this.renderButton()}</li>
-   </ul>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
- }
- render() {
-  return (
-   <div>
-    {this.renderHeader()}
-    <Route path='/post' component={CommentBox} />
-    <Route exact path='/' component={CommentList} />
-   </div>
-  );
- }
 }
-function mapStateToProps(state) {
- return {auth: state.auth};
-}
-export default connect(mapStateToProps, actions)(App);
+
+export default App;
