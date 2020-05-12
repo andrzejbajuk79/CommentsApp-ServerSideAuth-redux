@@ -1,3 +1,5 @@
 # LoginApp-ServerSideAuth-redux
+TORRENT - React - JWT,HOC,Server,Testing
 
-MERN Stack Front To Back Full Stack React, Redux & Node.js
+
+TORRENT - MERN Stack Front To Back Full Stack React, Redux & Node.js
