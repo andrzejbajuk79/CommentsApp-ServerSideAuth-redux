@@ -1,13 +1,13 @@
 # LoginApp-ServerSideAuth-redux
 
->**TORRENT: TORRENT - React - JWT,HOC,Server,Testing"**
->**TORRENT: "MERN Stack Front To Back Full Stack React, Redux & Node.js"**
+*https://www.youtube.com/watch?v=XkBB3pPY3t8&list=PLSwv5M2StQ6eMm1kkWd3rZCdONANCap_h&index=3*
+
 
 # Zawartość
->wlasny serwer, token, hashowanie hasla, dwa routy login/register, walidacja
-frontend -logowanie
+>hooks ,context
 
 ####Preview
-![sass-js-coding-test screenshot](https://github.com/andrzejbajuk79/LoginApp-ServerSideAuth-redux/blob/master/2020-05-18_12h15_30.png?raw=true)
+![sass-js-coding-test screenshot](https://github.com/andrzejbajuk79/ToDo-Hooks-Context/blob/master/src/2020-05-18_12h24_15.png?raw=true)
+![sass-js-coding-test screenshot](https://github.com/andrzejbajuk79/ToDo-Hooks-Context/blob/master/src/2020-05-18_12h25_45.png?raw=true)
 
 
