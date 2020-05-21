@@ -1,7 +1,7 @@
 ## LoginApp-ServerSideAuth-redux
 
-> *TORRENT: TORRENT - React - JWT,HOC,Server,Testing"*
-> *TORRENT: "MERN Stack Front To Back Full Stack React, Redux & Node.js"*
+> TORRENT: *"React - JWT,HOC,Server,Testing"*
+> TORRENT: *"MERN Stack Front To Back Full Stack React, Redux & Node.js"*
 
 ## Deploy
 
